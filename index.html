@@ -15,7 +15,6 @@ ________      _________   ____.___________    __________________ _______________
     <title>David Port Louis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
     <link rel="apple-touch-icon" sizes="120x120" href="./assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
@@ -67,6 +66,43 @@ ________      _________   ____.___________    __________________ _______________
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        var oldTitle = $(document).find("title").text();
+        var newTitle = "Welcome to future...";
+
+        function setTitle(title){
+            document.title = title;
+        }
+        $(window).on("focus", function(){
+	setTitle(oldTitle);
+	}).on("blur", function(){
+	setTitle(newTitle);
+	});
+	});
+    </script>
+
+    <div class="fb-customerchat"
+ page_id="2295353520708256"
+ minimized="true">
+</div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '912333495590130',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+(function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
 </body>
 
