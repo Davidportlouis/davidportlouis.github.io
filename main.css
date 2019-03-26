@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6, p{
 /***3. header***/
 header{
 	overflow: hidden;
-	background-color: #0077d7;
+	background-color: #FF14A1;
 	z-index: 666;
 	height: 90px;
 	width: 100%;
@@ -105,7 +105,7 @@ header a{
 	table-layout: fixed;
 	height: 100vh;
 	width: 100%;
-	background-color: #0077d7;
+	background-color: #FF14A1;
 }
 .home-intro-content {
 	display: table-cell;
@@ -245,73 +245,6 @@ header a{
 .home-works__item p{
 	color: #888;
 }
-
-
-.design-profiles{
-	margin: 0px auto;
-	padding-top: 30px;
-	text-align: center;
-}
-.behance-profile{
-	text-align: center;
-	padding: 40px 10px 0px 10px;
-	display: inline-block;
-}
-.behance-profile img{
-	padding: 10px;
-	float: left;
-}
-.behance-profile a{
-	background-color: #1769ff;
-	border-radius: 3px;
-	display: inline-block;
-	margin: 0 auto;
-	vertical-align: center;
-	color: #fff;
-	box-shadow: 0px 4px 20px #1e1e1e5c;
-	transition: background-color 0.4s;
-}
-.behance-profile a:hover{
-	background-color: #034cd0;
-	color: #fff;
-}
-.behance-profile h4{
-	font-size: 18px;
-	padding: 0px 20px;
-	display: inline;
-	line-height: 50px;
-}
-
-.dribbble-profile{
-	text-align: center;
-	padding: 30px 10px 0px 10px;
-	display: inline-block;
-}
-.dribbble-profile img{
-	padding: 10px;
-	float: left;
-}
-.dribbble-profile a{
-	background-color: #ea4c89;
-	border-radius: 3px;
-	display: inline-block;
-	margin: 0 auto;
-	vertical-align: center;
-	color: #fff;
-	box-shadow: 0px 4px 20px #1e1e1e5c;
-	transition: background-color 0.4s;
-}
-.dribbble-profile a:hover{
-	background-color: #333;
-	color: #fff;
-}
-.dribbble-profile h4{
-	font-size: 18px;
-	padding-right: 15px;
-	display: inline;
-	line-height: 50px;
-}
-
 
 /*email CTA*/
 .sm-email-cta{
