@@ -347,12 +347,12 @@ a{text-decoration: none;}
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #FF14A1; 
+    background: #2196f3;
     border-radius: 10px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #FF14A1; 
+    background: #2196f3;
 }
 
 /**9. text selection color**/
