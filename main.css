@@ -36,9 +36,7 @@ h1, h2, h3, h4, h5, h6, p{
 /***3. header***/
 header{
 	overflow: hidden;
-	background: #2196f3; /* fallback for old browsers */
-  	background: -webkit-linear-gradient(to right, #2196f3, #f44336); /* Chrome 10-25, Safari 5.1-6 */
-  	background: linear-gradient(to right, #2196f3, #f44336);
+	background: #93DEFF; /* fallback for old browsers */
 	z-index: 666;
 	height: 90px;
 	width: 100%;
@@ -107,9 +105,7 @@ header a{
 	table-layout: fixed;
 	height: 100vh;
 	width: 100%;
-	background: #2196f3; /* fallback for old browsers */
-  	background: -webkit-linear-gradient(to right, #2196f3, #f44336); /* Chrome 10-25, Safari 5.1-6 */
-  	background: linear-gradient(to right, #2196f3, #f44336);
+	background: #93DEFF;
 }
 .home-intro-content {
 	display: table-cell;
@@ -280,9 +276,7 @@ header a{
 /***7. footer***/
 footer{
 	padding: 140px 0px 300px;
-	background: #2196f3; /* fallback for old browsers */
-  	background: -webkit-linear-gradient(to right, #2196f3, #f44336); /* Chrome 10-25, Safari 5.1-6 */
-  	background: linear-gradient(to right, #2196f3, #f44336);
+	background: #93DEFF;
 	text-align: center;
 }
 footer a{
@@ -347,12 +341,12 @@ a{text-decoration: none;}
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #2196f3;
+    background: #93DEFF;
     border-radius: 10px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #2196f3;
+    background: #93DEFF;
 }
 
 /**9. text selection color**/
