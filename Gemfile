@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-git_source(:github) {|davidportlouis.github.io| "https://github.com/davidportlouis/davidportlouis.github.io" }
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "jekyll-seo-tag"
 gem "github-pages", group: :jekyll_plugins
