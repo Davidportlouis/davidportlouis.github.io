@@ -35,4 +35,190 @@
     {% seo %}
 </head>
 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="my-4">David Port Louis
+            <small>Portfolio</small>
+        </h1>
+
+        <!-- <h2>Projects</h2> -->
+
+        <br>
+
+        <!-- <div class="projectFilter">
+            <center>
+                <a href="#" filter="*" class="current">All</a>
+                <a href="#" filter=".dl">Deep Learning</a>
+                <a href="#" filter=".ml">Machine Learning</a>
+                <a href="#" filter=".rl">Reinforcement Learning</a>
+                <a href="#" filter=".cv">Computer Vision</a>
+                <a href="#" filter=".av">Self-Driving Cars</a>
+            </center>
+        </div> -->
+
+        <br>
+
+        <div class="row">
+            <div class="projectContainer"></div>
+        </div>
+
+        <div class="projectContainer row">
+
+            <div class="ai cv col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+
+                    <img class="card-img-top" src="assets/icons/flower_classifier.png" alt="flower classifier">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <center>
+                                <h4 class="card-title">Flower Classifier</h4>
+                            </center>
+                        </h4>
+                        <center>
+                            <p class="card-text">Classifying flowers into distinct (multiple) classes</p>
+                        </center>
+                        <br>
+                        <ul style="list-style-type:square">
+                            <li>PyTorch</li>
+                            <li>ConvNet</li>
+                            <li>Python Notebook</li>
+                            <li>Computer Vision</li>
+                        </ul>
+                        <br>
+
+                        <div class="link_button">
+                            <a href="https://github.com/davidportlouis/flower_recognition">
+                                <center>
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="assets/icons/github.png"
+                                        alt="GitHub" width="120" height="40">
+                                </center>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ai cv col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+
+                    <img class="card-img-top" src="assets/icons/dog_vs_cat.png" alt="dog_vs_cat_classifier">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <center>
+                                <h4 class="card-title">Dog Vs Cat</h4>
+                            </center>
+                        </h4>
+                        <center>
+                            <p class="card-text">Binary image classifier using CNN</p>
+                        </center>
+                        <br>
+                        <ul style="list-style-type:square">
+                            <li>PyTorch</li>
+                            <li>ConvNet</li>
+                            <li>Computer Vision</li>
+                            <li>Binary Image Classifier</li>
+                        </ul>
+                        <br>
+
+                        <div class="link_button">
+                            <a href="https://github.com/davidportlouis/dogs_vs_cats">
+                                <center>
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="assets/icons/github.png"
+                                        alt="GitHub" width="120" height="40">
+                                </center>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ai cv col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+
+                    <img class="card-img-top" src="assets/icons/image_denoiser.png" alt="image_denoiser">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <center>
+                                <h4 class="card-title">Image Denoiser</h4>
+                            </center>
+                        </h4>
+                        <center>
+                            <p class="card-text">Reconstruct, noisy images using Autoencoders</p>
+                        </center>
+                        <br>
+                        <ul style="list-style-type:square">
+                            <li>PyTorch</li>
+                            <li>ConvNet</li>
+                            <li>Autoencoders</li>
+                            <li>Computer Vision</li>
+                        </ul>
+                        <br>
+
+                        <div class="link_button">
+                            <a href="https://github.com/davidportlouis/denoising_images">
+                                <center>
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="assets/icons/github.png"
+                                        alt="GitHub" width="120" height="40">
+                                </center>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ai cv col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+
+                    <img class="card-img-top" src="assets/icons/sentiment_analysis.png" alt="sentiment_analysis">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <center>
+                                <h4 class="card-title">Sentiment Analysis</h4>
+                            </center>
+                        </h4>
+                        <center>
+                            <p class="card-text">Analyze Polarity (Sentiment) in text</p>
+                        </center>
+                        <br>
+                        <ul style="list-style-type:square">
+                            <li>PyTorch</li>
+                            <li>Transformers</li>
+                            <li>Inference API</li>
+                            <li>NLP</li>
+                        </ul>
+                        <br>
+
+                        <div class="link_button">
+                            <a
+                                href="https://github.com/davidportlouis/https://github.com/Davidportlouis/IMDB_sentiment_analysis">
+                                <center>
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="assets/icons/github.png"
+                                        alt="GitHub" width="120" height="40">
+                                </center>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+
 </html>
