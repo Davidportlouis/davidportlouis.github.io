@@ -1,0 +1,13 @@
+title: David Port Louis - Portfolio
+author: David Port Louis
+email: dportlouis@gmail.com
+description: David Port Louis - Portfolio; Deep Learning, Machine Learning, Computer Vision, Self-Driving Cars, AI
+url: "https://davidportlouis.github.io"
+twitter_username: art3mis_17
+github_username:  davidportlouis
+google_analytics: UA-145736589-1
+
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
